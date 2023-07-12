@@ -6,9 +6,10 @@
 /*   By: jmiranda <jmiranda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/06 20:40:10 by jmiranda          #+#    #+#             */
-/*   Updated: 2022/12/07 16:11:55 by jmiranda         ###   ########.fr       */
+/*   Updated: 2023/07/12 13:21:41 by jmiranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "get_next_line_bonus.h"
 
 char	*ft_read_buff(int fd, char *line, int *nl, int *end)

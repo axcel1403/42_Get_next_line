@@ -3,18 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jmiranda <marvin@42quebec.com>             +#+  +:+       +#+        */
+/*   By: jmiranda <jmiranda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/06 21:23:43 by jmiranda          #+#    #+#             */
-/*   Updated: 2022/07/26 14:00:11 by jmiranda         ###   ########.fr       */
+/*   Updated: 2023/07/12 13:21:28 by jmiranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "get_next_line.h"
 
 char	*ft_strchr(const char *str, int c, int *nl, int *end)
 {
 	while (*(str + *nl) != '\0' && *nl != *end)
-	{	
+	{
 		if (*(str + *nl) == (char)c)
 			return ((char *)str);
 		(*nl)++;

@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jmiranda <marvin@42quebec.com>             +#+  +:+       +#+        */
+/*   By: jmiranda <jmiranda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/06 20:40:10 by jmiranda          #+#    #+#             */
-/*   Updated: 2022/12/08 22:59:08 by jmiranda         ###   ########.fr       */
+/*   Updated: 2023/07/12 13:21:23 by jmiranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "get_next_line.h"
 
 /*if (*end == (sizeof(str) / BUFFER_SIZE) * BUFFER_SIZE)
